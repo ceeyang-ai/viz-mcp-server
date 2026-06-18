@@ -1,7 +1,10 @@
 # Viz MCP Server 📊
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/ceeyang-ai/viz-mcp-server?style=flat-square)](https://github.com/ceeyang-ai/viz-mcp-server)
+[![MCP](https://img.shields.io/badge/MCP%20Server-5e81ac?style=flat-square)](https://github.com/ceeyang-ai/viz-mcp-server)
+[![GitHub](https://img.shields.io/badge/GitHub-ceeyang--ai/viz--mcp--server-black?logo=github)](https://github.com/ceeyang-ai/viz-mcp-server)
 
 A **Model Context Protocol (MCP)** server for data visualization — generate bar charts, line charts, pie charts, scatter plots, and histograms. Returns SVG (inline) or PNG (file).
 
