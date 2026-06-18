@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-viz_mcp_server/__init__.py
-viz_mcp_server.egg-info/PKG-INFO
-viz_mcp_server.egg-info/SOURCES.txt
-viz_mcp_server.egg-info/dependency_links.txt
-viz_mcp_server.egg-info/entry_points.txt
-viz_mcp_server.egg-info/requires.txt
-viz_mcp_server.egg-info/top_level.txt

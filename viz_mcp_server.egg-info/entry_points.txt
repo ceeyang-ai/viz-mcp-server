@@ -1,2 +1,0 @@
-[console_scripts]
-viz-mcp-server = viz_mcp_server:main
