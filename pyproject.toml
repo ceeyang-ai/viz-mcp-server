@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "viz-mcp-server"
+version = "0.1.0"
+description = "MCP server for data visualization: bar, line, pie, scatter, histogram charts"
+authors = [{name = "Cee Yang"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["mcp", "visualization", "charts", "data-viz", "model-context-protocol"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+    "mcp>=1.0"
+]
+
+[project.scripts]
+viz-mcp-server = "viz_mcp_server:main"
+
+[project.urls]
+Homepage = "https://github.com/ceeyang-ai/viz-mcp-server"
+Source = "https://github.com/ceeyang-ai/viz-mcp-server"
+BugTracker = "https://github.com/ceeyang-ai/viz-mcp-server/issues"
